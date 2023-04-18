@@ -1,0 +1,4 @@
+stereo camera height: 250
+2D LiDAR height: 955
+stereo camera to box: 930
+2D LiDAR to box: 990
