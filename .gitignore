@@ -1,5 +1,6 @@
 data/0000
 data/0001
+# git add -f data/0001/depth_object270.npy data/0001/leftright270.npy data/0001/disparity270.npy data/0001/depth270.npy data/0001/rgb254.npy
 data/image
 data/video
 data/apple_1_1_1.pcd

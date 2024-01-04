@@ -20,7 +20,7 @@ In addition, we also utilize an RGB monocular camera aligned with a stereo camer
 # Usage
 We use this python SDK [DepthAI Python](https://github.com/luxonis/depthai-python) to read the grayscale images (left & right) and the RGB image from the stereo camera in real time.
 
-## Dependencies 
+### Dependencies 
 ```
 depthai # https://github.com/luxonis/depthai-python/tree/main/examples/install_requirements.py
 python=3.8
@@ -39,12 +39,22 @@ scikit-learn
 mayavi
 ```
 
-# Tutorial
+### Data
+Since we are running in real time outdoors for a long time, the amount of data is very large and it is difficult to upload all of it. We only upload the following set of data examples. If you need all the data, please contact zhangbowen930303@gmail.com.
+```
+data/0001/depth_object270.npy 
+data/0001/leftright270.npy
+data/0001/disparity270.npy
+data/0001/depth270.npy
+data/0001/rgb254.npy
+```
+
+### Tutorial
 ```
 obstacle_detection.ipynb
 ```
 
-# Demo 
+### Demo 
 ```
 rgb_disparity_alignment.py
 ```
