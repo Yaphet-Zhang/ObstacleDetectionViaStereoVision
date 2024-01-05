@@ -1,6 +1,11 @@
 # ObstacleDetectionViaStereoVision
 This paper [PPC-US-LSF3DOD: A Pseudo-Point-Clouds based Unsupervised and Scalable Late-Sensor-Fusion Method for 3D Obstacle Detection](https://ieeexplore.ieee.org/abstract/document/10328989) has been accpeted by IEEE International Conference on Robotics and Computer Vision (ICRCV 2023).
 
+### Citation
+```
+B. Zhang and M. Tanaka, “PPC-US-LSF3DOD: A Pseudo-Point-Clouds based Unsupervised and Scalable Late-Sensor-Fusion Method for 3D Obstacle Detection,” Proceedings of the 5th IEEE International Conference on Robotics and Computer Vision (ICRCV 2023), pp. 28-35, 2023. (Best Presenter Award)
+```
+
 To get the 3D coordinates and sizes of multi-scale obstacles (3D Obstacle Detection), we propose an unsupervised and scalable late sensor fusion method using pseudo point clouds obtained from a stereo camera [Luxonis OAK-D](https://shop.luxonis.com/products/oak-d) mounted on our mobility scooter.
 
 <img src = './figs/1_method.png' alt='drawing' height='500'/>
